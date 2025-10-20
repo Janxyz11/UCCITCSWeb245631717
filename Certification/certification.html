@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="certstyles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">Certification form</h1>
+    <p id="description">UC ESPORTS SURVEY</p>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label"> Name:
+                <input id="name" type="text" required placeholder="Name">
+            </label>
+            <label id="email-label"> Email:
+                <input id="email" type="email" required placeholder="Email">
+            </label>
+            <label id="number-label"> Age:
+                <input id="number" type="number" min="13" max="100" placeholder="Age">
+            </label>
+            <label for="dropdown"> Gender:
+                <select id="dropdown">
+                    <option value=" ">Select Gender</option>
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                </select>
+            </label>
+            <label id="status">
+                <legend>Year</legend>
+                    <input type="radio" name="year" value="type-status" > 1st Year
+                    <input type="radio" name="year" value="type-status"> 2nd Year
+                    <input type="radio" name="year" value="type-status"> 3rd Year
+            </label>
+            <label for="checkbox"> What Games Do you play?
+                <input type="checkbox" id="games" value="VALORANT"> VALORANT
+                <input type="checkbox" id="games" value="PUBG"> PUBG
+                <input type="checkbox" id="games" value="Mobile Legends"> Mobile Legends
+                <input type="checkbox" id="games" value="Dota 2"> Dota 2
+                <input type="checkbox" id="games" value="Roblox"> Roblox
+            </label>
+            <label for="AboutYou">Describe Yourself
+                <textarea name="about" id="about"></textarea>
+            </label>
+            <input type="submit" name="submit" id="submit">
+        </fieldset>
+    </form>
+
+</body>
+</html>
