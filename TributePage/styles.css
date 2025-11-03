@@ -1,0 +1,35 @@
+body{
+    background-color: #000000;
+}
+img{
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+h1,p{
+    text-align: center;
+    color: white;
+}
+#tribute-info{
+    text-align: center;
+    color: white;
+}
+#img-caption{
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+#img-div{
+    background-color: #A6051A;
+    width: 50%;
+    margin: auto;
+}
+#link{
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
