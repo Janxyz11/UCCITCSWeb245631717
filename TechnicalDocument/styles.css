@@ -7,16 +7,16 @@ body{
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
-    color: #333;
+    color: #ddd1d1;
     padding: 20px;
 }
 #navbar{
     position: fixed;
     top: 0;
     left: 0;
-    width: 250px;
+    width: 350px;
     height: 100%;
-    background-color: #333;
+    background-color: #1e1e1e;
     color: #fff;
     overflow-y: auto;
     padding: 20px;
@@ -31,7 +31,47 @@ header{
     font-size: 24px;
     margin-bottom: 10px;
     font-weight: bold;
+    color: #244281;
+}
+.header-title{
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #000000;
+}
+ul, a{
+    color: #ffffff;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 25px;
+}
+section{
+    margin: 20px 70px;
+}
+.nav-link{
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid #444;
+}
+article p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 20px;
 }
 article{
-    margin: 20px;
+    padding-bottom: 20px;
+}
+.shortcut{
+    font-weight: bold;
+    align-items: center;
+}
+.description{
+    text-align: right;
+    flex-grow: 1;
+}
+img{
+    height: 500px;
+    width: 500px;
 }

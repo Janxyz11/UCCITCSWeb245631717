@@ -1,35 +1,46 @@
-body{
-    background-color: #000000;
+body {
+    background-color: #1B365D;
 }
+
 img{
     display: block;
     max-width: 100%;
     margin: auto;
     padding: 20px;
+    height: auto;
 }
-h1,p{
+
+h1, p {
     text-align: center;
     color: white;
 }
-#tribute-info{
-    text-align: center;
+
+#tribute-info {
+    width: 50%;
+    margin: 20px auto;
+    text-align: justify;
     color: white;
+    line-height: 1.6;
 }
-#img-caption{
+
+#img-caption {
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 25px;
 }
-#img-div{
-    background-color: #A6051A;
+
+#img-div {
+    background-color: #ffffff;
     width: 50%;
     margin: auto;
 }
-#link{
+
+#link {
     text-align: center;
     margin: auto;
     color: white;
 }
-a{
+
+a {
     text-decoration: none;
 }
