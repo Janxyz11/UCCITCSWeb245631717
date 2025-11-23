@@ -3,217 +3,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS Code Keyboard Shortcuts</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
 </head>
 <body>
-    
     <nav id="navbar">
-        <header class="class-header">Visual Studio Code Keyboard Shortcuts</header>
+        <header>Visual Studio Code Keyboard Shortcuts</header>
         <ul>
-            <li><a class="nav-link" href="#general">General</a></li>
-            <li><a class="nav-link" href="#basic-editing">Basic Editing</a></li>
+            <li><a class="nav-link" href="#General">General</a></li>
+            <li><a class="nav-link" href="#Basic_Editing">Basic Editing</a></li>
             <li><a class="nav-link" href="#Navigation">Navigation</a></li>
-            <li><a class="nav-link" href="#Search and replace">Search and replace</a></li>
-            <li><a class="nav-link" href="#Multi-cursor and selection">Multi-cursor and selection</a></li>
-            <li><a class="nav-link" href="#Rich languages editing">Rich languages editing</a></li>
-            <li><a class="nav-link" href="#Editor management">Editor management</a></li>
-            <li><a class="nav-link" href="#File management">File management</a></li>
+            <li><a class="nav-link" href="#Search_and_Replace">Search and Replace</a></li>
+            <li><a class="nav-link" href="#Multi-cursor_and_Selection">Multi-cursor and Selection</a></li>
+            <li><a class="nav-link" href="#Rich_Languages_Editing">Rich Languages Editing</a></li>
+            <li><a class="nav-link" href="#Editor_Management">Editor Management</a></li>
+            <li><a class="nav-link" href="#File_Management">File Management</a></li>
             <li><a class="nav-link" href="#Display">Display</a></li>
             <li><a class="nav-link" href="#Debug">Debug</a></li>
-            <li><a class="nav-link" href="#Integrated terminal">Integrated terminal</a></li>
+            <li><a class="nav-link" href="#Integrated_Terminal">Integrated Terminal</a></li>
         </ul>
     </nav>
 
     <main id="main-doc">
-
-        <section class="main-section" id="general">
-            <header class="header-title">General</header>
-            <hr id="hr-general">
-            <article>
-                <p><span class="shortcut">Ctrl + Shift + P, F1</span><span class="description">Show Command Palette</span></p>
-                <p><span class="shortcut">Ctrl + P</span><span class="description">Quick Open, Go to File</span></p>
-                <p><span class="shortcut">Ctrl + Shift + N</span><span class="description">New window/instance</span></p>
-                <p><span class="shortcut">Ctrl + Shift + W</span><span class="description">Close window/instance</span></p>
-                <p><span class="shortcut">Ctrl + ,</span><span class="description">User Settings</span></p>
-                <p><span class="shortcut">Ctrl + K Ctrl + S</span><span class="description">Keyboard Shortcuts</span></p>
-            </article>
+        <section class="main-section" id="General">
+            <header>General</header>
+            <p>Use these general shortcuts to quickly navigate and manage VS Code.</p>
+            <div class="box">
+                <p><code>Ctrl + Shift + P, F1</code> Show Command Palette</p>
+                <p><code>Ctrl + P</code> Quick Open, Go to File…</p>
+                <p><code>Ctrl + Shift + N</code> New window/instance</p>
+                <ul>
+                    <li><code>Ctrl + Shift + W</code> Close window/instance</li>
+                    <li><code>Ctrl + ,</code> User Settings</li>
+                    <li><code>Ctrl + K Ctrl + S</code> Keyboard Shortcuts</li>
+                </ul>
+            </div>
         </section>
 
-        <section class="main-section" id="basic-editing">
-            <header class="header-title">Basic Editing</header>
-            <hr id="hr-general">
-            <article>
-                <p><span class="shortcut">Ctrl + X</span><span class="description">Cut line (empty selection)</span></p>
-                <p><span class="shortcut">Ctrl + C</span><span class="description">Copy line (empty selection)</span></p>
-                <p><span class="shortcut">Alt + ↑ / Alt + ↓</span><span class="description">Move line up/down</span></p>
-                <p><span class="shortcut">Shift + Alt + ↓ / Shift + Alt + ↑</span><span class="description">Copy line up/down</span></p>
-                <p><span class="shortcut">Ctrl + Shift + K</span><span class="description">Delete line</span></p>
-                <p><span class="shortcut">Ctrl + Enter</span><span class="description">Insert line below</span></p>
-                <p><span class="shortcut">Ctrl + Shift + Enter</span><span class="description">Insert line above</span></p>
-                <p><span class="shortcut">Ctrl + Shift + \</span><span class="description">Jump to matching bracket</span></p>
-                <p><span class="shortcut">Ctrl + ] / Ctrl + [</span><span class="description">Indent/outdent line</span></p>
-                <p><span class="shortcut">Home / End</span><span class="description">Go to beginning/end of line</span></p>
-                <p><span class="shortcut">Ctrl + Home / Ctrl + End</span><span class="description">Go to beginning/end of file</span></p>
-                <p><span class="shortcut">Ctrl + ↑ / Ctrl + ↓</span><span class="description">Scroll line up/down</span></p>
-                <p><span class="shortcut">Alt + PgUp / Alt + PgDn</span><span class="description">Scroll page up/down</span></p>
-            </article>
+        <section class="main-section" id="Basic_Editing">
+            <header>Basic Editing</header>
+            <p>These shortcuts help you with basic text editing tasks.</p>
+            <div class="box">
+                <p><code>Ctrl + X</code> Cut line (empty selection)</p>
+                <p><code>Ctrl + C</code> Copy line (empty selection)</p>
+                <ul>
+                    <li><code>Alt + ↑ / Alt + ↓</code> Move line up/down</li>
+                    <li><code>Shift + Alt + ↓ / Shift + Alt + ↑</code> Copy line up/down</li>
+                    <li><code>Ctrl + Shift + K</code> Delete line</li>
+                </ul>
+            </div>
         </section>
 
-        <section class="main-section" id="navigation">
-            <header class="header-title">Navigation</header>
-            <hr id="hr-general">
-            <article>
-                <p><span class="shortcut">Ctrl + T</span><span class="description">Show all Symbols</span></p>
-                <p><span class="shortcut">Ctrl + G</span><span class="description">Go to Line...</span></p>
-                <p><span class="shortcut">Ctrl + Shift + O</span><span class="description">Go to Symbol...</span></p>
-                <p><span class="shortcut">Ctrl + Shift + M</span><span class="description">Show Problems panel</span></p>
-                <p><span class="shortcut">F8 / Shift + F8</span><span class="description">Go to next/previous error or warning</span></p>
-                <p><span class="shortcut">Ctrl + Shift + Tab</span><span class="description">Navigate editor group history</span></p>
-                <p><span class="shortcut">Alt + Left / Alt + Right</span><span class="description">Go back/forward</span></p>
-            </article>
+        <section class="main-section" id="Navigation">
+            <header>Navigation</header>
+            <p>Use these shortcuts to navigate through your code efficiently.</p>
+            <div class="box">
+                <p><code>Ctrl + T</code> Show all Symbols</p>
+                <p><code>Ctrl + G</code> Go to Line…</p>
+                <ul>
+                    <li><code>Ctrl + Shift + O</code> Go to Symbol…</li>
+                    <li><code>Ctrl + -</code> Go back</li>
+                    <li><code>Ctrl + Shift + -</code> Go forward</li>
+                </ul>
+            </div>
         </section>
 
-        <section class="main-section" id="search and replace">
-            <header class="header-title">Search and Replace</header>
-            <hr id="hr-general">
-            <article>
-                <p><span class="shortcut">Ctrl + X</span><span class="description">Cut line (empty selection)</span></p>
-                <p><span class="shortcut">Ctrl + C</span><span class="description">Copy line (empty selection)</span></p>
-                <p><span class="shortcut">Alt + ↑ / Alt + ↓</span><span class="description">Move line up/down</span></p>
-                <p><span class="shortcut">Shift + Alt + ↓ / Shift + Alt + ↑</span><span class="description">Copy line up/down</span></p>
-                <p><span class="shortcut">Ctrl + Shift + K</span><span class="description">Delete line</span></p>
-                <p><span class="shortcut">Ctrl + Enter</span><span class="description">Insert line below</span></p>
-                <p><span class="shortcut">Ctrl + Shift + Enter</span><span class="description">Insert line above</span></p>
-                <p><span class="shortcut">Ctrl + Shift + \</span><span class="description">Jump to matching bracket</span></p>
-                <p><span class="shortcut">Ctrl + ] / Ctrl + [</span><span class="description">Indent/outdent line</span></p>
-                <p><span class="shortcut">Home / End</span><span class="description">Go to beginning/end of line</span></p>
-                <p><span class="shortcut">Ctrl + Home / Ctrl + End</span><span class="description">Go to beginning/end of file</span></p>
-                <p><span class="shortcut">Ctrl + ↑ / Ctrl + ↓</span><span class="description">Scroll line up/down</span></p>
-                <p><span class="shortcut">Alt + PgUp / Alt + PgDn</span><span class="description">Scroll page up/down</span></p>
-            </article>
+        <section class="main-section" id="Search_and_Replace">
+            <header>Search and Replace</header>
+            <p>These shortcuts help you search and replace text in your files.</p>
+            <div class="box">
+                <p><code>Ctrl + F</code> Find</p>
+                <p><code>Ctrl + H</code> Replace</p>
+                <ul>
+                    <li><code>F3 / Shift + F3</code> Find next/previous</li>
+                    <li><code>Alt + Enter</code> Select all occurrences of Find match</li>
+                    <li><code>Ctrl + D</code> Add selection to next Find match</li>
+                </ul>
+            </div>
         </section>
 
-        <section class="main-section" id="multi-cursor and selection">
-            <header class="header-title">Multi-cursor and selection</header>
-            <hr id="hr-general">
-            <article>
-                <p><span class="shortcut">Ctrl + Shift + P, F1</span><span class="description">Show Command Palette</span></p>
-                <p><span class="shortcut">Ctrl + P</span><span class="description">Quick Open, Go to File</span></p>
-                <p><span class="shortcut">Ctrl + Shift + N</span><span class="description">New window/instance</span></p>
-                <p><span class="shortcut">Ctrl + Shift + W</span><span class="description">Close window/instance</span></p>
-                <p><span class="shortcut">Ctrl + ,</span><span class="description">User Settings</span></p>
-                <p><span class="shortcut">Ctrl + K Ctrl + S</span><span class="description">Keyboard Shortcuts</span></p>
-            </article>
+        <section class="main-section" id="Multi-cursor_and_Selection">
+            <header>Multi-cursor and Selection</header>
+            <p>These shortcuts help you work with multiple cursors and selections.</p>
+            <div class="box">
+                <p><code>Alt + Click</code> Insert cursor</p>
+                <p><code>Ctrl + Alt + ↑ / Ctrl + Alt + ↓</code> Insert cursor above/below</p>
+                <ul>
+                    <li><code>Ctrl + U</code> Undo last cursor operation</li>
+                    <li><code>Shift + Alt + I</code> Insert cursor at end of each line selected</li>
+                    <li><code>Ctrl + L</code> Select current line</li>
+                </ul>
+            </div>
         </section>
 
-        <section class="main-section" id="rich-languages-editing">
-            <header class="header-title">Rich languages editing</header>
-            <hr id="hr-general">
-            <article>
-                <p><span class="shortcut">Ctrl+Space, Ctrl+I</span><span class="description">Trigger suggestion</span></p>
-                <p><span class="shortcut">Ctrl+Shift+Space</span><span class="description">Trigger parameter hints</span></p>
-                <p><span class="shortcut">Shift+Alt+F</span><span class="description">Format document</span></p>
-                <p><span class="shortcut">Ctrl+K Ctrl+F</span><span class="description">Format selection</span></p>
-                <p><span class="shortcut">F12</span><span class="description">Go to Definition</span></p>
-                <p><span class="shortcut">Alt+F12</span><span class="description">Peek Definition</span></p>
-                <p><span class="shortcut">Ctrl+K F12</span><span class="description">Open Definition to the side</span></p>
-                <p><span class="shortcut">Ctrl+.</span><span class="description">Quick Fix</span></p>
-                <p><span class="shortcut">Shift+F12</span><span class="description">Show References</span></p>
-                <p><span class="shortcut">F2</span><span class="description">Rename Symbol</span></p>
-                <p><span class="shortcut">Ctrl+K Ctrl+X</span><span class="description">Trim trailing whitespace</span></p>
-                <p><span class="shortcut">Ctrl+K M</span><span class="description">Change file language</span></p>
-
-            </article>
+        <section class="main-section" id="Rich_Languages_Editing">
+            <header>Rich Languages Editing</header>
+            <p>These shortcuts enhance your coding experience with language features.</p>
+            <div class="box">
+                <p><code>Ctrl + Space</code> Trigger suggestion</p>
+                <p><code>Ctrl + Shift + Space</code> Trigger parameter hints</p>
+                <ul>
+                    <li><code>Ctrl + .</code> Quick Fix</li>
+                    <li><code>Shift + Alt + F</code> Format document</li>
+                    <li><code>F12</code> Go to Definition</li>
+                </ul>
+            </div>
         </section>
 
-        <section class="main-section" id="editor-management">
-            <header class="header-title">Editor management</header>
-            <hr id="hr-general">
-            <article>
-                <p><span class="shortcut">Ctrl+F4, Ctrl+W</span><span class="description">Close editor</span></p>
-                <p><span class="shortcut">Ctrl+K F</span><span class="description">Close folder</span></p>
-                <p><span class="shortcut">Ctrl+\</span><span class="description">Split editor</span></p>
-                <p><span class="shortcut">Ctrl+ 1 / 2 / 3</span><span class="description">Focus into 1st, 2nd or 3rd editor group</span></p>
-                <p><span class="shortcut">Ctrl+K Ctrl+ ← / →</span><span class="description">Focus into previous/next editor group</span></p>
-                <p><span class="shortcut">Ctrl+Shift+PgUp / PgDn</span><span class="description">Move editor left/right</span></p>
-                <p><span class="shortcut">Ctrl+K ← / →</span><span class="description">Move active editor group</span></p>
-            </article>
+        <section class="main-section" id="Editor_Management">
+            <header>Editor Management</header>
+            <p>These shortcuts help you manage your editor windows and tabs.</p>
+            <div class="box">
+                <p><code>Ctrl + W</code> Close editor</p>
+                <p><code>Ctrl + \</code> Split editor</p>
+                <ul>
+                    <li><code>Ctrl + 1 / Ctrl + 2 / Ctrl + 3</code> Focus into 1st, 2nd, or 3rd editor group</li>
+                    <li><code>Ctrl + K Ctrl + ← / Ctrl + K Ctrl + →</code> Move editor left/right</li>
+                    <li><code>Ctrl + Tab</code> Open next editor</li>
+                </ul>
+            </div>
         </section>
 
-        <section class="main-section" id="file-management">
-            <header class="header-title">File management</header>
-            <hr id="hr-general">
-            <article>
-                <p><span class="shortcut">Ctrl+N</span><span class="description">New File</span></p>
-                <p><span class="shortcut">Ctrl+O</span><span class="description">Open File...</span></p>
-                <p><span class="shortcut">Ctrl+S</span><span class="description">Save</span></p>
-                <p><span class="shortcut">Ctrl+Shift+S</span><span class="description">Save As...</span></p>
-                <p><span class="shortcut">Ctrl+K S</span><span class="description">Save All</span></p>
-                <p><span class="shortcut">Ctrl+F4</span><span class="description">Close</span></p>
-                <p><span class="shortcut">Ctrl+K Ctrl+W</span><span class="description">Close All</span></p>
-                <p><span class="shortcut">Ctrl+Shift+T</span><span class="description">Reopen closed editor</span></p>
-                <p><span class="shortcut">Ctrl+K Enter</span><span class="description">Keep preview mode editor open</span></p>
-                <p><span class="shortcut">Ctrl+Tab</span><span class="description">Open next</span></p>
-                <p><span class="shortcut">Ctrl+Shift+Tab</span><span class="description">Open previous</span></p>
-                <p><span class="shortcut">Ctrl+K P</span><span class="description">Copy path of active file</span></p>
-                <p><span class="shortcut">Ctrl+K R</span><span class="description">Reveal active file in Explorer</span></p>
-                <p><span class="shortcut">Ctrl+K O</span><span class="description">Show active file in new window/instance</span></p>
-            </article>
+        <section class="main-section" id="File_Management">
+            <header>File Management</header>
+            <p>These shortcuts help you manage your files within VS Code.</p>
+            <div class="box">
+                <p><code>Ctrl + N</code> New File</p>
+                <p><code>Ctrl + S</code> Save</p>
+                <ul>
+                    <li><code>Ctrl + Shift + S</code> Save As…</li>
+                    <li><code>Ctrl + K Ctrl + S</code> Save All</li>
+                    <li><code>Ctrl + O</code> Open File…</li>
+                </ul>
+            </div>
         </section>
 
-        <section class="main-section" id="display">
-            <header class="header-title">Display</header>
-            <hr id="hr-general">
-            <article>
-                <p><span class="shortcut">F11</span><span class="description">Toggle full screen</span></p>
-                <p><span class="shortcut">Shift+Alt+0</span><span class="description">Toggle editor layout (horizontal/vertical)</span></p>
-                <p><span class="shortcut">Ctrl+ = / -</span><span class="description">Zoom in/out</span></p>
-                <p><span class="shortcut">Ctrl+B</span><span class="description">Toggle Sidebar visibility</span></p>
-                <p><span class="shortcut">Ctrl+Shift+E</span><span class="description">Show Explorer / Toggle focus</span></p>
-                <p><span class="shortcut">Ctrl+Shift+F</span><span class="description">Show Search</span></p>
-                <p><span class="shortcut">Ctrl+Shift+G</span><span class="description">Show Source Control</span></p>
-                <p><span class="shortcut">Ctrl+Shift+D</span><span class="description">Show Debug</span></p>
-                <p><span class="shortcut">Ctrl+Shift+X</span><span class="description">Show Extensions</span></p>
-                <p><span class="shortcut">Ctrl+Shift+H</span><span class="description">Replace in files</span></p>
-                <p><span class="shortcut">Ctrl+Shift+J</span><span class="description">Toggle Search details</span></p>
-                <p><span class="shortcut">Ctrl+Shift+U</span><span class="description">Show Output panel</span></p>
-                <p><span class="shortcut">Ctrl+Shift+V</span><span class="description">Open Markdown preview</span></p>
-                <p><span class="shortcut">Ctrl+K V</span><span class="description">Open Markdown preview to the side</span></p>
-                <p><span class="shortcut">Ctrl+K Z</span><span class="description">Zen Mode (Esc Esc to exit)</span></p>
-            </article>
+        <section class="main-section" id="Display">
+            <header>Display</header>
+            <p>These shortcuts help you control the display and layout of VS Code.</p>
+            <div class="box">
+                <p><code>Ctrl + B</code> Toggle Sidebar visibility</p>
+                <p><code>Ctrl + J</code> Toggle Panel visibility</p>
+                <ul>
+                    <li><code>Ctrl + = / Ctrl + -</code> Zoom in/out</li>
+                    <li><code>Ctrl + 0</code> Reset zoom level</li>
+                    <li><code>F11</code> Toggle Full Screen</li>
+                </ul>
+            </div>
         </section>
 
-        <section class="main-section" id="debug">
-            <header class="header-title">Debug</header>
-            <hr id="hr-general">
-            <article>
-                <p><span class="shortcut">Ctrl+Shift+P, F1</span><span class="description">Show Command Palette</span></p>
-                <p><span class="shortcut">Ctrl + P</span><span class="description">Quick Open, Go to File</span></p>
-                <p><span class="shortcut">Ctrl + Shift + N</span><span class="description">New window/instance</span></p>
-                <p><span class="shortcut">Ctrl + Shift + W</span><span class="description">Close window/instance</span></p>
-                <p><span class="shortcut">Ctrl + ,</span><span class="description">User Settings</span></p>
-                <p><span class="shortcut">Ctrl + K Ctrl + S</span><span class="description">Keyboard Shortcuts</span></p>
-            </article>
+        <section class="main-section" id="Debug">
+            <header>Debug</header>
+            <p>These shortcuts help you with debugging your code.</p>
+            <div class="box">
+                <p><code>F5</code> Start/Continue Debugging</p>
+                <p><code>F9</code> Toggle Breakpoint</p>
+                <ul>
+                    <li><code>F10</code> Step Over</li>
+                    <li><code>F11</code> Step Into</li>
+                    <li><code>Shift + F11</code> Step Out</li>
+                </ul>
+            </div>
         </section>
 
-        <section class="main-section" id="integrated-terminal">
-            <header class="header-title">Integrated terminal</header>
-            <hr id="hr-general">
-            <article>
-                <p><span class="shortcut">Ctrl+`</span><span class="description">Show integrated terminal</span></p>
-                <p><span class="shortcut">Ctrl+Shift+`</span><span class="description">Create new terminal</span></p>
-                <p><span class="shortcut">Ctrl+C</span><span class="description">Copy selection</span></p>
-                <p><span class="shortcut">Ctrl+V</span><span class="description">Paste into active terminal</span></p>
-                <p><span class="shortcut">Ctrl+↑ / Ctrl+↓</span><span class="description">Scroll up/down</span></p>
-                <p><span class="shortcut">Ctrl+PgUp / Ctrl+PgDn</span><span class="description">Scroll page up/down</span></p>
-                <p><span class="shortcut">Shift+PgUp / Shift+PgDn</span><span class="description">Scroll page up/down</span></p>
-                <p><span class="shortcut">Ctrl+Home / Ctrl+End</span><span class="description">Scroll to top/bottom</span></p>
-            </article>
+        <section class="main-section" id="Integrated_Terminal">
+            <header>Integrated Terminal</header>
+            <p>These shortcuts help you work with the integrated terminal in VS Code.</p>
+            <div class="box">
+                <p><code>Ctrl + `</code> Toggle Integrated Terminal</p>
+                <p><code>Ctrl + Shift + `</code> Create New Terminal</p>
+                <ul>
+                    <li><code>Ctrl + C</code> Copy selection in terminal</li>
+                    <li><code>Ctrl + V</code> Paste into terminal</li>
+                    <li><code>Ctrl + ↑ / Ctrl + ↓</code> Scroll up/down in terminal</li>
+                </ul>
+            </div>
         </section>
-
 
     </main>
-
 </body>
 </html>
