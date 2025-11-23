@@ -7,10 +7,18 @@ header{
     position: fixed;
     top: 0;
     width: 100%;
+    background-color: white;
+    z-index: 1000;
     display: flex;
     justify-content: space-between;
-    background-color: white; 
-    z-index: 1000;
+    align-items: center;
+    padding-right: 20px; 
+}
+#header-img{
+    height: 60px;
+    width: auto;
+    margin-left: 20px;
+    display: block;
 }
 header ul{
     display: flex;
@@ -32,6 +40,7 @@ header ul{
     width: 80%;
     margin: auto;
     padding: 20px;
+    padding-top: 150px; 
 }
 .container h1{
     text-align: center;
@@ -70,7 +79,7 @@ header ul{
     display: flex;
     align-items: center;
     gap: 20px;
-    padding-top: 50px;
+    padding-top: 1px;
     padding-bottom: 1px;
 }
 .icon{
@@ -124,7 +133,6 @@ header ul{
 .product > ol{
     margin: 15px 10px;
     list-style-type: none;
-
 }
 .product > button{
     border: 0;
@@ -142,7 +150,6 @@ header ul{
 footer{
     margin-top: 30px;
     padding: 20px;
-
 }
 footer > ul{
     display: flex;
@@ -152,7 +159,6 @@ footer > ul{
     text-decoration: none;
     padding-bottom: 35px;
     font-family: sans-serif;
-    
 }
 footer > span{
     margin-top: 5px;
@@ -167,29 +173,29 @@ a{
     text-decoration: none;
 }
 @media (max-width: 650px){
-    #pricing{
+    #pricing {
         flex-direction: column;
         align-items: center;
     }
-    .product{
+    .product {
         max-width: 300px;
         width: 100%;
     }
-    header{
+    header {
         flex-direction: column;
         min-height: auto;
-        padding-bottom: 10px;
+        padding-bottom: 20px;
     }
-    nav > ul{
+    nav > ul {
         flex-direction: column;
         text-align: center;
         width: 100%;
         margin-top: 10px;
     }
-    nav > ul > li{
+    nav > ul > li {
         padding: 5px 0;
     }
-    #hero{
+    #hero {
         margin-top: 150px;
     }
 }
