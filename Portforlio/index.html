@@ -3,33 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Frank's Portfolio</title>
 </head>
 <body>
 
-    <nav id="navbar" class="nav">
+    <nav id="navbar">
         <ul>
-            <li>My Profile</li>
-            <li>My Projects</li>
-            <li>My Contact</li>
+            <li><a href="#welcome-section">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
     <section id="welcome-section">
-        <h1>WELCOME TO MY PORTFORLIO WEB PAGE!
-            <div class="container">
-                <!-- MY PROFILE AND INFORMATIONS -->
-            </div>
-        </h1>
+        <h1>WELCOME TO MY PORTFOLIO</h1>
+        <div class="container">
+            <p class="grow-on-hover">I AM FRANK</p>
+            <p class="desc">Aspiring Student | Web Developer | Designer</p>
+        </div>
     </section>
 
     <section id="projects">
-        <a href=""></a>
-        <section class="project-tile">
-            <h2></h2>
-        </section>
+        <h2>My Projects</h2>
+        
+        <div class="projects-grid">
+            <a href="https://product-landing-page-seven-kappa.vercel.app" target="_blank" class="project-tile">
+                <img class="project-image" src="P1.jpg" alt="P1">
+                <div class="project-title">
+                    <span class="code-symbol">Product Landing Page</span>
+                </div>
+            </a>
+
+            <a href="https://technical-document-lac.vercel.app" target="_blank" class="project-tile">
+                <img class="project-image" src="P2.jpg" alt="P2">
+                <div class="project-title">
+                    <span class="code-symbol">Technical Document</span>
+                </div>
+            </a>
+
+            <a href="https://tribute-nu.vercel.app" target="_blank" class="project-tile">
+                <img class="project-image" src="P3.jpg" alt="P3">
+                <div class="project-title">
+                    <span class="code-symbol">Tribute Page</span>
+                </div>
+            </a>
+
+            <a href="https://survey-sigma-six.vercel.app" target="_blank" class="project-tile">
+                <img class="project-image" src="P4.jpg" alt="P4">
+                <div class="project-title">
+                    <span class="code-symbol">Survey Form</span>
+                </div>
+            </a>
+
+        </div>
     </section>
 
+    <section id="contact">
+    <h2>FIND ME ON</h2>
+    
+    <div class="contact-links">
+        
+        <div class="contact-box">
+            <a id="profile-link" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <span class="contact-text">Janxyz11</span>
+        </div>
+        
+        <div class="contact-box">
+            <a id="profile-link" target="_blank">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <span class="contact-text">john.collado094@gmail.com</span>
+        </div>
+
+    </div>
+
+</section>
 </body>
 </html>

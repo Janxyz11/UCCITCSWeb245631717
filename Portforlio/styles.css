@@ -1,0 +1,203 @@
+/* --- RESET & FONTS --- */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif; /* A bold, sporty font */
+}
+
+/* --- NAVBAR (BLACK) --- */
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000; /* Ferrari Black */
+    z-index: 10;
+    border-bottom: 3px solid #FFF200; /* A little yellow stripe */
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+#navbar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#navbar a:hover {
+    color: white; 
+    text-decoration: underline;
+    text-decoration-color: #FFF200;
+    text-underline-offset: 8px; 
+    text-decoration-thickness: 2px;
+}
+
+/* --- WELCOME SECTION (RED) --- */
+#welcome-section {
+    height: 100vh;
+    background-color: #D40000; /* Ferrari Red */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border-bottom: 3px solid #000000;
+}
+
+#welcome-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.desc {
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #FFF200; /* Yellow text accent */
+}
+
+/* Name Animation */
+.grow-on-hover {
+    font-size: 4rem;
+    font-weight: 800;
+    margin: 0;
+    transition: transform 0.3s ease;
+    cursor: default;
+}
+.grow-on-hover:hover {
+    transform: scale(1.2);
+    color: #000000; /* Turns black when you hover over the name */
+}
+
+/* --- PROJECTS SECTION (YELLOW) --- */
+#projects {
+    padding: 100px 20px;
+    background-color: #FFF200; /* Ferrari Yellow */
+    text-align: center;
+    color: black; /* Text must be black to be readable on yellow */
+}
+
+#projects h2 {
+    font-size: 2.5rem;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* The Card Style */
+.project-tile {
+    background-color: #000000; /* Black Cards */
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    display: block;
+}
+
+.project-tile:hover {
+    transform: scale(1.10); /* Moves up on hover */
+}
+
+.project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    opacity: 0.8; /* Slightly dark so it looks cool */
+}
+.project-tile:hover .project-image {
+    opacity: 1; /* Brightens up on hover */
+}
+
+.project-title {
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.code-symbol {
+    color: #f8f8f8; /* Red brackets < > */
+}
+
+/* --- CONTACT SECTION (Icons + Text) --- */
+#contact {
+    height: auto;
+    padding: 50px 20px;
+    background-color: #000000; /* Black Background */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top: 4px solid #D40000; /* Ferrari Red Line */
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+#contact p {
+    margin-bottom: 40px;
+    color: #A6A6A6;
+    font-style: italic;
+}
+
+.contact-links {
+    display: flex;
+    gap: 60px; /* Space between GitHub and Email groups */
+    flex-wrap: wrap; /* Wraps nicely on small phones */
+    justify-content: center;
+}
+
+/* New Wrapper for Icon + Text */
+.contact-box {
+    display: flex;
+    flex-direction: column; /* Stacks icon on top of text */
+    align-items: center;
+    gap: 15px; /* Space between icon and text */
+}
+
+/* The Icons */
+#profile-link {
+    color: white;
+    font-size: 3.5rem;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+#profile-link:hover {
+    color: #FFF200; /* Yellow on hover */
+    transform: scale(1.1);
+}
+
+/* The Text below the icons */
+.contact-text {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    font-family: monospace; /* Coding font style */
+}
+
+/* --- MOBILE QUERY --- */
+@media (max-width: 600px) {
+    .grow-on-hover { font-size: 2.5rem; }
+    #welcome-section h1 { font-size: 1.5rem; }
+}
