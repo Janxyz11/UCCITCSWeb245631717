@@ -1,19 +1,16 @@
-/* --- RESET & FONTS --- */
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif; /* A bold, sporty font */
+    font-family: 'Montserrat', sans-serif;
 }
-
-/* --- NAVBAR (BLACK) --- */
 #navbar {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #000000; /* Ferrari Black */
+    background-color: #000000;
     z-index: 10;
-    border-bottom: 3px solid #FFF200; /* A little yellow stripe */
+    border-bottom: 3px solid #FFF200; 
 }
 
 #navbar ul {
@@ -42,10 +39,10 @@ body {
     text-decoration-thickness: 2px;
 }
 
-/* --- WELCOME SECTION (RED) --- */
+
 #welcome-section {
     height: 100vh;
-    background-color: #D40000; /* Ferrari Red */
+    background-color: #D40000; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,10 +60,10 @@ body {
 .desc {
     font-style: italic;
     font-size: 1.5rem;
-    color: #FFF200; /* Yellow text accent */
+    color: #FFF200; 
 }
 
-/* Name Animation */
+
 .grow-on-hover {
     font-size: 4rem;
     font-weight: 800;
@@ -76,15 +73,15 @@ body {
 }
 .grow-on-hover:hover {
     transform: scale(1.2);
-    color: #000000; /* Turns black when you hover over the name */
+    color: #000000; 
 }
 
-/* --- PROJECTS SECTION (YELLOW) --- */
+
 #projects {
     padding: 100px 20px;
-    background-color: #FFF200; /* Ferrari Yellow */
+    background-color: #FFF200;
     text-align: center;
-    color: black; /* Text must be black to be readable on yellow */
+    color: black; 
 }
 
 #projects h2 {
@@ -101,16 +98,16 @@ body {
     margin: 0 auto;
 }
 
-/* The Card Style */
+
 .project-tile {
-    background-color: #000000; /* Black Cards */
+    background-color: #000000; 
     text-decoration: none;
     transition: transform 0.3s ease;
     display: block;
 }
 
 .project-tile:hover {
-    transform: scale(1.10); /* Moves up on hover */
+    transform: scale(1.10); 
 }
 
 .project-image {
@@ -118,10 +115,10 @@ body {
     height: 200px;
     object-fit: cover;
     display: block;
-    opacity: 0.8; /* Slightly dark so it looks cool */
+    opacity: 0.8; 
 }
 .project-tile:hover .project-image {
-    opacity: 1; /* Brightens up on hover */
+    opacity: 1; 
 }
 
 .project-title {
@@ -132,21 +129,20 @@ body {
 }
 
 .code-symbol {
-    color: #f8f8f8; /* Red brackets < > */
+    color: #f8f8f8; 
 }
 
-/* --- CONTACT SECTION (Icons + Text) --- */
 #contact {
     height: auto;
     padding: 50px 20px;
-    background-color: #000000; /* Black Background */
+    background-color: #000000; 
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    border-top: 4px solid #D40000; /* Ferrari Red Line */
+    border-top: 4px solid #D40000; 
 }
 
 #contact h2 {
@@ -162,20 +158,19 @@ body {
 
 .contact-links {
     display: flex;
-    gap: 60px; /* Space between GitHub and Email groups */
-    flex-wrap: wrap; /* Wraps nicely on small phones */
+    gap: 60px; 
+    flex-wrap: wrap; 
     justify-content: center;
 }
 
-/* New Wrapper for Icon + Text */
+
 .contact-box {
     display: flex;
-    flex-direction: column; /* Stacks icon on top of text */
+    flex-direction: column; 
     align-items: center;
-    gap: 15px; /* Space between icon and text */
+    gap: 15px; 
 }
 
-/* The Icons */
 #profile-link {
     color: white;
     font-size: 3.5rem;
@@ -184,19 +179,18 @@ body {
 }
 
 #profile-link:hover {
-    color: #FFF200; /* Yellow on hover */
+    color: #FFF200; 
     transform: scale(1.1);
 }
 
-/* The Text below the icons */
+
 .contact-text {
     font-size: 1.2rem;
     color: white;
     font-weight: bold;
-    font-family: monospace; /* Coding font style */
+    font-family: monospace; 
 }
 
-/* --- MOBILE QUERY --- */
 @media (max-width: 600px) {
     .grow-on-hover { font-size: 2.5rem; }
     #welcome-section h1 { font-size: 1.5rem; }
